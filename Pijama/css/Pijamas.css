@@ -25,7 +25,8 @@ body,html{
 }
 
 nav{padding-left:30%;
-  background-color: red
+  /* background-color: red
+   */
 }
 
 ul{
@@ -153,39 +154,48 @@ sub{
   margin-left: 8%
 }
 
-a{
-  margin-left: 525px;
-}
+/* a{
+} */
 /* 
 .produtos{
   padding-top:500px
 } */
 
-footer{
-  margin-top: 100px;
-  padding-top: 5px;
-  font-size: 13px;
-  height: 100%;
-  padding-left: 45%;
-  background-color: rgba(128, 128, 128, 0.050);
-  margin-top: 118em;
-  /* position:sticky; */
-}
+/* a{
+  padding-left: 850px;
+  color: aliceblue;
+  text-decoration: none;
+  border: 3px solid springgreen ;
+  width: 1000px;
 
-p{
-  display: inline;
-}
+} */
 
-.ponto-um{
-  margin-right:37%;
-  margin-left: -220px;
-  padding-left: -150px;
-  background-color: blueviolet;
-}
-
-.ponto-dois{
-  background-color: brown;
-  margin:0;
-  padding-bottom:-20px;
+.vm{
+  margin-top:1556px;
   display: flex;
+  /* border: 3px solid red; */
+
+}
+
+input[type="button"]{
+  margin-top: 82%;
+  margin-right:-45%;
+  border: none;
+  color: white;
+  background:rgba(181, 22, 22, 0);
+  cursor: pointer;
+}
+
+a{
+  /* background-color: aqua; */
+  margin-left: 46%;
+}
+
+footer{
+  margin-top:25px;
+}
+
+footer p{
+  opacity: 0;
+  cursor: none
 }
