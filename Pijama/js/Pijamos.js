@@ -16,4 +16,4 @@ let md = document.querySelector('.md')
 dm.addEventListener("click", () =>{
   dm.classList.toggle('rotate')
   dm.style.transition = '.5s'
-})
+}) 
